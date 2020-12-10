@@ -20,7 +20,6 @@ public class SearchWebActivity extends AppCompatActivity {
         Intent intent = getIntent();
         url = intent.getStringExtra("url");
         webView.loadUrl(url);
-
     }
 }
 

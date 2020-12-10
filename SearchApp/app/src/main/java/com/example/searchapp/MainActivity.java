@@ -45,54 +45,5 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("url",url);
             startActivity(intent);
         });
-
-
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-   moveToGameScreen.setOnClickListener(view -> {
-           p1 = textViewPlayer1.getText().toString();
-           p2 = textViewPlayer2.getText().toString();
-           Intent intent = new Intent(MainActivity.this, GameScreen.class);
-        intent.putExtra("p1", p1);
-        intent.putExtra("p2", p2);
-        startActivity(intent);
-
-
-
-
-
-
-
-    private void getNames(){
-        Intent intent = getIntent();
-        nameP1= intent.getStringExtra("p1");
-        nameP2= intent.getStringExtra("p2");
-        textViewP1.setText(nameP1 +": 0");
-        textViewP2.setText(nameP2 +": 0");
-    }
-
-
-
-*/
-
-
-
-
-
-
-
